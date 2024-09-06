@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>MovieZone</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="search">
+        <input type="text" id="searchBar" placeholder="Search for movies..." onkeyup="searchMovies()">
+    </section>
+
+    <section id="movie-list">
+        <div class="movie" data-title="Inception">
+            <img src="https://via.placeholder.com/200x300" alt="Inception">
+            <h2>Inception</h2>
+            <p>2010</p>
+        </div>
+        <div class="movie" data-title="The Dark Knight">
+            <img src="https://via.placeholder.com/200x300" alt="The Dark Knight">
+            <h2>The Dark Knight</h2>
+            <p>2008</p>
+        </div>
+        <div class="movie" data-title="Interstellar">
+            <img src="https://via.placeholder.com/200x300" alt="Interstellar">
+            <h2>Interstellar</h2>
+            <p>2014</p>
+        </div>
+        <!-- Add more movies as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MovieZone. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
